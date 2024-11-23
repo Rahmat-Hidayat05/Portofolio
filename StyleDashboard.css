@@ -1,0 +1,54 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ff0060;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+}
+
+/* Layout */
+.container {
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    padding: 1rem;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 1rem 0;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Content */
+.content {
+    flex: 1;
+    padding: 2rem;
+    background-color: white;
+}
